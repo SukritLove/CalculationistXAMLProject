@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    Title="Age"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:sys = "clr-namespace:System;assembly=mscorlib"
+    x:Class="Midterm.CalAge">
+    <StackLayout BackgroundColor="#D7AF8B" Padding="20">
+        <!--.................DateOfBirth.................-->
+        <StackLayout>
+            <Frame
+                CornerRadius="20"
+                BackgroundColor="#070D0C">
+                <Frame
+                    Margin="-15"
+                    CornerRadius="15"
+                    BackgroundColor="#CE4C36">
+                    <StackLayout Orientation="Horizontal" >
+                        <Label
+                            Text="Date of birth"
+                            TextColor="#070D0C"
+                            FontAttributes="Bold"
+                            HorizontalOptions="Center"
+                            VerticalTextAlignment="Center"
+                            Padding="10"
+                            FontSize="20"/>
+
+                        <DatePicker
+                            FontSize="20"
+                            TextColor="#070D0C"
+                            FontAttributes="Bold"
+                            Format="dd/MM/yyyy"
+                            x:Name="datePick"
+                            MaximumDate="{x:Static sys:DateTime.Now}"
+                            Date="12/27/2001"
+                            HorizontalOptions="CenterAndExpand"/>
+                    </StackLayout>
+                </Frame>
+            </Frame>
+            <!--............................................-->
+            <!--..................Today.....................-->
+            <Frame
+                Margin="0,10,0,0"
+                CornerRadius="20"
+                BackgroundColor="#070D0C">
+                <Frame 
+                    Margin="-15"
+                    CornerRadius="15"
+                    BackgroundColor="#DB6E25">
+                    <StackLayout Orientation="Horizontal" >
+                        <AbsoluteLayout>
+                            <Label
+                                Text="Today"
+                                TextColor="#070D0C"
+                                FontAttributes="Bold"
+                                HorizontalOptions="Center"
+                                VerticalTextAlignment="Center"
+                                Padding="10"
+                                FontSize="20"/>
+
+                            <DatePicker
+                                TextColor="#070D0C"
+                                FontSize="20"
+                                FontAttributes="Bold"
+                                Format="dd/MM/yyyy"
+                                x:Name="dateToday"
+                                MaximumDate="{x:Static sys:DateTime.Now}"
+                                Date="{x:Static sys:DateTime.Now}"
+                                HorizontalOptions="CenterAndExpand"
+                                AbsoluteLayout.LayoutBounds="175,00"/>
+                        </AbsoluteLayout>
+                    </StackLayout>
+                </Frame>
+            </Frame>
+            <!--............................................-->
+        </StackLayout>
+        <StackLayout
+            Margin="0,10,0,0">
+            <Frame
+                CornerRadius="20"
+                BackgroundColor="#070D0C">
+                <Frame 
+                    Margin="-15"
+                    CornerRadius="15"
+                    BackgroundColor="#BE8C43">
+                    <AbsoluteLayout >
+                        <!--....................Show Age................-->
+                        <Label
+                            Text="Age"
+                            FontAttributes="Bold"
+                            TextColor="#070D0C"
+                            FontSize="40"
+                            AbsoluteLayout.LayoutBounds="20, 0"/>
+                        <Label
+                            x:Name="labelYear"
+                            Text="35"
+                            FontAttributes="Bold"
+                            TextColor="#070D0C"
+                            FontSize="35"
+                            AbsoluteLayout.LayoutBounds="20, 60"/>
+                        <Label
+                            Text="years"
+                            TextColor="#070D0C"
+                            FontAttributes="Bold"
+                            FontSize="25"
+                            AbsoluteLayout.LayoutBounds="75,70"/>
+                        <Label
+                            x:Name="labelMonth"
+                            Text="4"
+                            TextColor="#070D0C"
+                            FontSize="15"
+                            FontAttributes="Bold"
+                            AbsoluteLayout.LayoutBounds="20,119"/>
+                        <Label
+                            Text="months |"
+                            FontSize="15"
+                            TextColor="#070D0C"
+                            FontAttributes="Bold"
+                            AbsoluteLayout.LayoutBounds="40,119"/>
+                        <Label
+                            x:Name="labelDays"
+                            Text="7"
+                            FontSize="15"
+                            TextColor="#070D0C"
+                            FontAttributes="Bold"
+                            AbsoluteLayout.LayoutBounds="105,119"/>
+                        <Label
+                            Text="days"
+                            FontSize="15"
+                            TextColor="#070D0C"
+                            FontAttributes="Bold"
+                            AbsoluteLayout.LayoutBounds="128,119"/>
+                        <!--............................................-->
+
+
+
+
+
+                    </AbsoluteLayout>
+                </Frame>
+            </Frame>
+        </StackLayout>
+        <AbsoluteLayout>
+                    <Ellipse
+                     Stroke="#f3e2c6"
+                     Fill="#498282"
+                     StrokeThickness="10"
+                     WidthRequest="300"
+                     HeightRequest="300"
+                     AbsoluteLayout.LayoutBounds="25,50"/>
+                    <Ellipse
+                     Stroke="#E2A46A"
+                     Fill="#080907"
+                     StrokeThickness="4"
+                     WidthRequest="225"
+                     HeightRequest="225"
+                     AbsoluteLayout.LayoutBounds="62.5,87.5"/>
+                    <Ellipse
+                     Stroke="#E2A46A"
+                     Fill="#CF4A31"
+                     StrokeThickness="4"
+                     WidthRequest="150"
+                     HeightRequest="150"
+                     AbsoluteLayout.LayoutBounds="100,125"/>
+                    <Ellipse
+                     Stroke="#E2A46A"
+                     Fill="#EDE4E5"
+                     StrokeThickness="4"
+                     WidthRequest="75"
+                     HeightRequest="75"
+                     AbsoluteLayout.LayoutBounds="137.5,162.5"/>
+                </AbsoluteLayout>
+    </StackLayout>
+
+
+</ContentPage>
+

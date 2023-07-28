@@ -1,0 +1,35 @@
+﻿<Properties StartupConfiguration="{AEB5843E-F4D1-4F3D-BCCB-D106E663B22A}|Default">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.Midterm.Android PreferredExecutionTarget="Android.pixel_5_-_api_33" Xamarin.HotReload.DebuggerTimeoutException.Midterm.Android.HideInfoBar="True" Xamarin.HotReload.WrongLinkerErrorInfoBar.Midterm.Android.HideInfoBar="True" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.MonoDroid LastDeploySdkVersion="13.2.0.6" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Midterm/Midterm/App.xaml.cs">
+    <Files>
+      <File FileName="Midterm/Midterm/App.xaml.cs" Line="19" Column="14" IsPinned="True" />
+      <File FileName="Midterm/Midterm/MainPage.xaml" Line="9" Column="35" IsPinned="True" />
+      <File FileName="Midterm/Midterm/CalAge.xaml" Line="171" Column="62" IsPinned="True" />
+      <File FileName="Midterm/Midterm/CurrencyPage.xaml.cs" />
+      <File FileName="Midterm/Midterm/TimeCon.xaml.cs" />
+      <File FileName="Midterm/Midterm/BmiPage.xaml.cs" />
+      <File FileName="Midterm/Midterm.Android/Resources/mipmap-anydpi-v26/icon.xml" />
+      <File FileName="Midterm/Midterm/BmiPage.xaml" />
+      <File FileName="Midterm/Midterm/CurrencyPage.xaml" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Calculationist" expanded="True">
+            <Node name="Midterm" expanded="True">
+              <Node name="App.xaml" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <Xamarin.Addins.Core.Project ActiveDebugTarget="Android.pixel_5_-_api_33" />
+</Properties>

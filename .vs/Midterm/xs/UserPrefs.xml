@@ -1,0 +1,46 @@
+﻿<Properties StartupConfiguration="{AEB5843E-F4D1-4F3D-BCCB-D106E663B22A}|Default">
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <Xamarin.Addins.Core.Project ActiveDebugTarget="Android.06a6d337c6b5" />
+  <MonoDevelop.Ide.ItemProperties.Midterm.Android PreferredExecutionTarget="Android.06a6d337c6b5" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Midterm/Midterm/TimeCon.xaml">
+    <Files>
+      <File FileName="Midterm/Midterm/App.xaml.cs" Line="16" Column="27" IsPinned="True" />
+      <File FileName="Midterm/Midterm/MainPage.xaml" Line="44" Column="38" IsPinned="True" />
+      <File FileName="Midterm/Midterm/CalAge.xaml" Line="8" Column="35" IsPinned="True" />
+      <File FileName="Midterm/Midterm/TimeCon.xaml" Line="59" Column="26" />
+      <File FileName="Midterm/Midterm/CurrencyPage.xaml" />
+      <File FileName="Midterm/Midterm/DataCal.xaml.cs" />
+      <File FileName="Midterm/Midterm/DataCal.xaml" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Midterm" expanded="True">
+            <Node name="Midterm" expanded="True">
+              <Node name="App.xaml" expanded="True" />
+              <Node name="BmiPage.xaml" expanded="True" />
+              <Node name="CalAge.xaml" expanded="True" />
+              <Node name="CurrencyPage.xaml" expanded="True" />
+              <Node name="DataCal.xaml" expanded="True" />
+              <Node name="DiscountCal.xaml" expanded="True" />
+              <Node name="MainPage.xaml" expanded="True" />
+              <Node name="TimeCon.xaml" expanded="True" />
+            </Node>
+            <Node name="Midterm.Android" expanded="True">
+              <Node name="Assets" expanded="True" />
+              <Node name="Resources" expanded="True">
+                <Node name="drawable" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.MonoDroid LastDeploySdkVersion="13.1.0.1" />
+</Properties>

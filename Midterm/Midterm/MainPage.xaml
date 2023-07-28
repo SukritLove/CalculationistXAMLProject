@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+             Title="Calculationist"
+             
+             xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Midterm.MainPage">
+
+    <StackLayout BackgroundColor="#D7AF8B">
+        <StackLayout Margin="20">
+
+
+        </StackLayout>
+        <StackLayout>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="65"/>
+                    <ColumnDefinition Width="110"/>
+                    <ColumnDefinition Width="20"/>
+                    <ColumnDefinition Width="110"/>
+                    <ColumnDefinition Width="20"/>
+                    <ColumnDefinition Width="110"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="30"/>
+                    <RowDefinition Height="110"/>
+                    <RowDefinition Height="20"/>
+                    <RowDefinition Height="110"/>
+                    <RowDefinition Height="20"/>
+                    <RowDefinition Height="110"/>
+                </Grid.RowDefinitions>
+
+                <Button
+                x:Name="birthDay"
+                BorderWidth="5"
+                BorderColor="#f3e2c6"
+                ImageSource="BD.png"
+                BackgroundColor="#427575"
+                Grid.Column="1" Grid.Row="1"
+                CornerRadius="30"/>
+                <Button
+                x:Name="currencyConv"
+                BorderWidth="5"
+                BorderColor="#f3e2c6"
+                ImageSource="Cur.png"
+                BackgroundColor="#427575"
+                Grid.Column="3" Grid.Row="1"
+                CornerRadius="30"/>
+                <Button
+                x:Name="getBmi"
+                BorderWidth="5"
+                BorderColor="#f3e2c6"
+                ImageSource="BMI.png"
+                BackgroundColor="#080907"
+                Grid.Column="1" Grid.Row="3"
+                CornerRadius="30"/>
+                <Button
+                x:Name="dataConv"
+                BorderWidth="5"
+                BorderColor="#f3e2c6"
+                ImageSource="Data.png"
+                BackgroundColor="#080907"
+                Grid.Column="3" Grid.Row="3"
+                CornerRadius="30"/>
+                <Button
+                x:Name="disCount"
+                BorderWidth="5"
+                BorderColor="#f3e2c6"
+                ImageSource="Dis.png"
+                BackgroundColor="#CF4A31"
+                Grid.Column="1" Grid.Row="5"
+                CornerRadius="30"/>
+                <Button
+                x:Name="timeCal"
+                BorderWidth="5"
+                BorderColor="#f3e2c6"
+                ImageSource="Time.png"
+                BackgroundColor="#CF4A31"
+                Grid.Column="3" Grid.Row="5"
+                CornerRadius="30"/>
+
+                <!--Set one-->
+                <BoxView
+                Margin="5"
+                Color="#CE6143"
+                Grid.Column="1" Grid.Row="2"
+                CornerRadius="3"
+                />
+                <BoxView
+                Margin="1"
+                Color="#CE6143"
+                Grid.Column="2" Grid.Row="2"
+                CornerRadius="10"
+                />
+                <BoxView
+                Margin="5"
+                Color="#CE6143"
+                Grid.Column="2" Grid.Row="1"
+                CornerRadius="3"
+                />
+                <BoxView
+                Margin="5"
+                Color="#CE6143"
+                Grid.Column="3" Grid.Row="2"
+                CornerRadius="3"
+                />
+                <!--Set one-->
+                <!--Set two-->
+                <BoxView
+                Margin="5"
+                Color="#CE6143"
+                Grid.Column="1" Grid.Row="4"
+                CornerRadius="3"
+                />
+                <BoxView
+                Margin="1"
+                Color="#CE6143"
+                Grid.Column="2" Grid.Row="4"
+                CornerRadius="10"
+                />
+                <BoxView
+                Margin="5"
+                Color="#CE6143"
+                Grid.Column="3" Grid.Row="4"
+                CornerRadius="3"
+                />
+                <BoxView
+                Margin="5"
+                Color="#CE6143"
+                Grid.Column="2" Grid.Row="3"
+                CornerRadius="3"
+                />
+                <!--Set two-->
+                <BoxView
+                Margin="5"
+                Color="#CE6143"
+                Grid.Column="2" Grid.Row="5"
+                CornerRadius="3"
+                />
+
+            </Grid>
+        </StackLayout>
+        <StackLayout>
+            <AbsoluteLayout>
+                <Ellipse
+                     Stroke="#f3e2c6"
+                     Fill="#498282"
+                     StrokeThickness="10"
+                     WidthRequest="400"
+                     HeightRequest="400"
+                     AbsoluteLayout.LayoutBounds="-5,120"/>
+                <Ellipse
+                     Stroke="#E2A46A"
+                     Fill="#080907"
+                     StrokeThickness="4"
+                     WidthRequest="300"
+                     HeightRequest="300"
+                     AbsoluteLayout.LayoutBounds="45,170"/>
+                <Ellipse
+                     Stroke="#E2A46A"
+                     Fill="#CF4A31"
+                     StrokeThickness="4"
+                     WidthRequest="200"
+                     HeightRequest="200"
+                     AbsoluteLayout.LayoutBounds="95,220"/>
+                <Ellipse
+                     Stroke="#E2A46A"
+                     Fill="#EDE4E5"
+                     StrokeThickness="4"
+                     WidthRequest="100"
+                     HeightRequest="100"
+                     AbsoluteLayout.LayoutBounds="145,270"/>
+            </AbsoluteLayout>
+        </StackLayout>
+
+
+    </StackLayout>
+
+</ContentPage>
+

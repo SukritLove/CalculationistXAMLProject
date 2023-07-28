@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    Title="Discount"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="Midterm.DiscountCal">
+    <StackLayout BackgroundColor="#DAB08C" Padding="20">
+        <Frame
+               CornerRadius="20"
+                BackgroundColor="#070D0C"
+            Margin="0,10,0,0">
+            <Frame
+                Margin="-14"
+                CornerRadius="13"
+                BackgroundColor="#C74F2C">
+                <AbsoluteLayout>
+                    <Label
+                    TextColor="#070D0C"
+                    FontAttributes="Bold"
+                    Text="Original price"
+                    FontSize="20"
+                    AbsoluteLayout.LayoutBounds="5,20"/>
+                    <Entry
+                    TextColor="#070D0C"
+                    FontAttributes="Bold"
+                    ClassId="1"
+                    x:Name="inputOrigin"
+                    Text="270"
+                    Placeholder="Price"
+                    PlaceholderColor="DarkGray"
+                    AbsoluteLayout.LayoutBounds="220,10"
+                    Keyboard="Numeric"
+                    WidthRequest="80"/>
+                    <Label
+                    Text="Discount (% off)"
+                    TextColor="#070D0C"
+                    FontAttributes="Bold"
+                    FontSize="18"
+                    AbsoluteLayout.LayoutBounds="5,90"/>
+                    <Entry
+                    ClassId="2"
+                    TextColor="#070D0C"
+                    FontAttributes="Bold"
+                    x:Name="inputDiscount"
+                    Text="20"
+                    Placeholder="Discount %"
+                    PlaceholderColor="DarkGray"
+                    AbsoluteLayout.LayoutBounds="220,80"
+                    Keyboard="Numeric"
+                    WidthRequest="80"/>
+
+                    <Label
+                    Text="Final price"
+                    TextColor="#070D0C"
+                    FontAttributes="Bold"
+                    FontSize="18"
+                    AbsoluteLayout.LayoutBounds="5,160"/>
+                    <Label
+                    x:Name="fiNal"
+                    Text="Final price"
+                    TextColor="#070D0C"
+                    FontAttributes="Bold"
+                    FontSize="18"
+                    AbsoluteLayout.LayoutBounds="225,160"/>
+
+                    <Label
+                    FontSize="20"
+                    AbsoluteLayout.LayoutBounds="210,185"/>
+                </AbsoluteLayout>
+            </Frame>
+        </Frame>
+        <Frame
+            Margin="60,20,60,0"
+            CornerRadius="20"
+            BackgroundColor="#070D0C">
+            <Frame
+                Margin="-15"
+                CornerRadius="15"
+                BackgroundColor="#4C7E75">
+                <StackLayout>
+                    <AbsoluteLayout>
+                        <Label
+                        Text="You save"
+                        TextColor="#070D0C"
+                        FontAttributes="Bold"
+                        FontSize="18"
+                        AbsoluteLayout.LayoutBounds="40,0"/>
+                        <Label
+                        TextColor="#070D0C"
+                        FontAttributes="Bold"
+                        x:Name="diFF"
+                        Text="0"
+                        FontSize="18"
+                        AbsoluteLayout.LayoutBounds="115,1"/>
+                    </AbsoluteLayout>
+                </StackLayout>
+            </Frame>
+        </Frame>
+        <AbsoluteLayout>
+            <Rectangle
+                
+                Stroke="#E2A46A"
+                Fill="#EDE4E5"
+                StrokeThickness="4"
+                WidthRequest="200"
+                HeightRequest="400"
+                AbsoluteLayout.LayoutBounds="80,200"/>
+            <Rectangle
+                Stroke="#E2A46A"
+                Fill="#CF4A31"
+                StrokeThickness="4"
+                WidthRequest="150"
+                HeightRequest="350"
+                AbsoluteLayout.LayoutBounds="105,150"/>
+            <Rectangle
+                Stroke="#E2A46A"
+                Fill="#080907"
+                StrokeThickness="4"
+                WidthRequest="100"
+                HeightRequest="300"
+                AbsoluteLayout.LayoutBounds="130,100"/>
+            <Rectangle
+                Stroke="#f3e2c6"
+                Fill="#498282"
+                StrokeThickness="4"
+                WidthRequest="50"
+                HeightRequest="400"
+                AbsoluteLayout.LayoutBounds="155,50"/>
+
+        </AbsoluteLayout>
+    </StackLayout>
+</ContentPage>
+

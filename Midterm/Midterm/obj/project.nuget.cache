@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "WI7Njxy8ate/TacIr+jpR+KrC0k6UFaufTNwCwp/reDbiJICS7HWhl2CMc8Ds/we0doYO1hqKCrvKL9qVBy75A==",
+  "success": true,
+  "projectFilePath": "/Users/sukrit_love/Desktop/Midterm/Midterm/Midterm/Midterm.csproj",
+  "expectedPackageFiles": [
+    "/Users/sukrit_love/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "/Users/sukrit_love/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512",
+    "/Users/sukrit_love/.nuget/packages/system.numerics.vectors/4.5.0/system.numerics.vectors.4.5.0.nupkg.sha512",
+    "/Users/sukrit_love/.nuget/packages/xamarin.essentials/1.7.0/xamarin.essentials.1.7.0.nupkg.sha512",
+    "/Users/sukrit_love/.nuget/packages/xamarin.forms/5.0.0.2196/xamarin.forms.5.0.0.2196.nupkg.sha512"
+  ],
+  "logs": []
+}

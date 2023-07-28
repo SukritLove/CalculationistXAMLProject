@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    Title="Time"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="Midterm.TimeCon">
+    <StackLayout BackgroundColor="#D7AF8B" Padding="20">
+        <AbsoluteLayout>
+
+            <Rectangle
+                Stroke="#E2A46A"
+                Fill="#EDE4E5"
+                StrokeThickness="4"
+                WidthRequest="200"
+                HeightRequest="400"
+                AbsoluteLayout.LayoutBounds="80,-350"/>
+            <Rectangle
+                Stroke="#E2A46A"
+                Fill="#CF4A31"
+                StrokeThickness="4"
+                WidthRequest="150"
+                HeightRequest="350"
+                AbsoluteLayout.LayoutBounds="105,-250"/>
+            <Rectangle
+                Stroke="#E2A46A"
+                Fill="#080907"
+                StrokeThickness="4"
+                WidthRequest="100"
+                HeightRequest="300"
+                AbsoluteLayout.LayoutBounds="130,-150"/>
+            <Rectangle
+                Stroke="#f3e2c6"
+                Fill="#498282"
+                StrokeThickness="4"
+                WidthRequest="50"
+                HeightRequest="250"
+                AbsoluteLayout.LayoutBounds="155,-50"/>
+            <StackLayout
+                AbsoluteLayout.LayoutBounds="0,250">
+                <!--____________________001____________________-->
+                <Frame
+                CornerRadius="20"
+                BackgroundColor="#f3e2c6">
+                    <Frame 
+                Margin="-15"
+                CornerRadius="15"
+                BackgroundColor="#608FA6">
+                        <AbsoluteLayout>
+                            <Picker
+                x:Name="picK00"
+                Title="Choose Data"
+                TextColor="#070D0C"
+                FontAttributes="Bold"
+                FontSize="17"
+                AbsoluteLayout.LayoutBounds="0,4"/>
+                            <!--____________Input____________-->
+                            <Entry
+                x:Name="inPut00"
+                ClassId="1"
+                TextColor="#070D0C"
+                FontAttributes="Bold"
+                FontSize="17"
+                HorizontalOptions="FillAndExpand"
+                WidthRequest="150"
+                AbsoluteLayout.LayoutBounds="150,0"
+                Keyboard="Numeric"
+                />
+                            <!--____________Input____________-->
+                        </AbsoluteLayout>
+                    </Frame>
+                </Frame>
+                <!--____________________Byte____________________-->
+
+                <!--____________________KB____________________-->
+                <Frame
+            CornerRadius="20"
+            BackgroundColor="#f3e2c6">
+                    <Frame 
+                Margin="-15"
+                CornerRadius="15"
+                BackgroundColor="#BD7687">
+                        <AbsoluteLayout>
+                            <Picker
+                x:Name="picK01"
+                Title="Choose Data"
+                TextColor="#070D0C"
+                FontAttributes="Bold"
+                FontSize="17"
+                AbsoluteLayout.LayoutBounds="0,4"/>
+                            <!--____________KB Input____________-->
+                            <Entry
+                x:Name="inPut01"
+                ClassId="2"
+                TextColor="#070D0C"
+                FontAttributes="Bold"
+                FontSize="17"
+                WidthRequest="150"
+                HorizontalOptions="FillAndExpand"
+                AbsoluteLayout.LayoutBounds="150,0"
+                Keyboard="Numeric"
+                />
+                            <!--____________KB Input____________-->
+                        </AbsoluteLayout>
+                    </Frame>
+                </Frame>
+                <!--____________________KB____________________-->
+
+
+
+            </StackLayout>
+            <Rectangle
+                
+                Stroke="#E2A46A"
+                Fill="#EDE4E5"
+                StrokeThickness="4"
+                WidthRequest="200"
+                HeightRequest="400"
+                AbsoluteLayout.LayoutBounds="80,650"/>
+            <Rectangle
+                Stroke="#E2A46A"
+                Fill="#CF4A31"
+                StrokeThickness="4"
+                WidthRequest="150"
+                HeightRequest="350"
+                AbsoluteLayout.LayoutBounds="105,600"/>
+            <Rectangle
+                Stroke="#E2A46A"
+                Fill="#080907"
+                StrokeThickness="4"
+                WidthRequest="100"
+                HeightRequest="300"
+                AbsoluteLayout.LayoutBounds="130,550"/>
+            <Rectangle
+                Stroke="#f3e2c6"
+                Fill="#498282"
+                StrokeThickness="4"
+                WidthRequest="50"
+                HeightRequest="400"
+                AbsoluteLayout.LayoutBounds="155,500"/>
+        </AbsoluteLayout>
+    </StackLayout>
+
+</ContentPage>
+

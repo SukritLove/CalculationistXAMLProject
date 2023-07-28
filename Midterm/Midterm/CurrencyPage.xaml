@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    Title="Currency"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="Midterm.CurrencyPage">
+    <StackLayout BackgroundColor="#D7AF8B" Padding="20">
+        <AbsoluteLayout>
+            <Rectangle
+                Stroke="#f3e2c6"
+                Fill="#498282"
+                StrokeThickness="4"
+                WidthRequest="400"
+                HeightRequest="400"
+                AbsoluteLayout.LayoutBounds="150,-200"/>
+            <Rectangle
+                Stroke="#E2A46A"
+                Fill="#080907"
+                StrokeThickness="4"
+                WidthRequest="350"
+                HeightRequest="350"
+                AbsoluteLayout.LayoutBounds="200,-200"/>
+            <Rectangle
+                Stroke="#E2A46A"
+                Fill="#CF4A31"
+                StrokeThickness="4"
+                WidthRequest="300"
+                HeightRequest="300"
+                AbsoluteLayout.LayoutBounds="250,-200"/>
+            <Rectangle
+                Stroke="#E2A46A"
+                Fill="#EDE4E5"
+                StrokeThickness="4"
+                WidthRequest="250"
+                HeightRequest="250"
+                AbsoluteLayout.LayoutBounds="300,-200"/>
+            <StackLayout
+                AbsoluteLayout.LayoutBounds="0,270">
+                <!--...........................1st Input............................-->
+                <StackLayout Orientation="Horizontal" >
+                    <!--pickerInput-->
+                    <Frame
+                    CornerRadius="20"
+                    BackgroundColor="#f3e2c6"
+                    Margin="15,0,0,0">
+                        <Frame
+                    Margin="-15"
+                    CornerRadius="15"
+                    BackgroundColor="#629f94"
+                    HasShadow="True">
+                            <Picker
+                    Title="Pick Currency"
+                    TitleColor="#070D0C"
+                    FontAttributes="Bold"
+                    FontSize="17"
+                    x:Name="pickerC01"/>
+                        </Frame>
+                    </Frame>
+                    <!--pickerInput-->
+                    <!--entryInput-->
+                    <Frame
+                    CornerRadius="20"
+                    BackgroundColor="#f3e2c6">
+                        <Frame  Margin="-15"
+                   CornerRadius="15"
+                   BackgroundColor="#CE4C36"
+                   HasShadow="True">
+                            <Entry
+                    x:Name="enTry0"
+                    ClassId="1"
+                    TextColor="#070D0C"
+                    FontAttributes="Bold"
+                    FontSize="17"
+                    Placeholder="Type your number"
+                    Keyboard="Numeric"
+                    Focused="EnTry_Focused"
+                    />
+                        </Frame>
+                    </Frame>
+                    <!--entryInput-->
+                </StackLayout>
+                <!--......................................................................-->
+
+                <!--...............................2nd Input..............................-->
+                <StackLayout Orientation="Horizontal" >
+                    <!--pickerInput-->
+                    <Frame
+                CornerRadius="20"
+                BackgroundColor="#f3e2c6"
+                Margin="15,0,0,0">
+                        <Frame
+                   Margin="-15"
+                   CornerRadius="15"
+                   BackgroundColor="#629f94"
+                   HasShadow="True">
+                            <Picker
+                    Title="Pick Currency"
+                    x:Name="pickerC02"
+                    SelectedIndex="0"
+                    TitleColor="#070D0C"
+                    FontAttributes="Bold"
+                    FontSize="17"/>
+                        </Frame>
+                    </Frame>
+                    <!--pickerInput-->
+                    <!--entryInput-->
+                    <Frame
+                CornerRadius="20"
+                BackgroundColor="#f3e2c6">
+                        <Frame
+                   Margin="-15"
+                   CornerRadius="15"
+                   BackgroundColor="#CA8028"
+                   HasShadow="True">
+                            <Entry
+                        ClassId="2"
+                        FontAttributes="Bold"
+                        x:Name="enTry1"
+                        Placeholder="Type your number"
+                        TextColor="#070D0C"
+                        FontSize="17"
+                        Keyboard="Numeric"
+                        Focused="EnTry_Focused"
+                        />
+                        </Frame>
+                    </Frame>
+                    <!--entryInput-->
+                </StackLayout>
+            </StackLayout>
+            <!--......................................................................-->
+            <Rectangle
+                Stroke="#f3e2c6"
+                Fill="#498282"
+                StrokeThickness="4"
+                WidthRequest="400"
+                HeightRequest="400"
+                AbsoluteLayout.LayoutBounds="-165,530"/>
+            <Rectangle
+                Stroke="#E2A46A"
+                Fill="#080907"
+                StrokeThickness="4"
+                WidthRequest="350"
+                HeightRequest="350"
+                AbsoluteLayout.LayoutBounds="-175,585"/>
+            <Rectangle
+                Stroke="#E2A46A"
+                Fill="#CF4A31"
+                StrokeThickness="4"
+                WidthRequest="300"
+                HeightRequest="300"
+                AbsoluteLayout.LayoutBounds="-185,645"/>
+            <Rectangle
+                Stroke="#E2A46A"
+                Fill="#EDE4E5"
+                StrokeThickness="4"
+                WidthRequest="250"
+                HeightRequest="250"
+                AbsoluteLayout.LayoutBounds="-190,690"/>
+
+        </AbsoluteLayout>
+    </StackLayout>
+</ContentPage>
+
